@@ -1,0 +1,21 @@
+.btn_container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+}
+.btnhand {
+  background-color: rgb(255, 133, 20);
+  color: #fff;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-family: "Montserrat SemiBold", sans-serif;
+  border: none;
+}
+.btnhand:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 35px 0px;
+  background-color: rgb(26, 158, 218);
+}
